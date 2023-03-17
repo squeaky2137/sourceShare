@@ -16,11 +16,11 @@ npm install sourceshare
 
 ```js
 // Import methods
-import { SRCreate, SRget } from 'sourceshare';
+import { SRCreate, SRGet } from 'sourceshare';
 
 
 // Use required
-const { SRCreate, SRget } = require('sourceshare');
+const { SRCreate, SRGet } = require('sourceshare');
 ```
 
 # Creating a bin
@@ -69,11 +69,11 @@ const key = await SRCreate("sourceBin", {
 
 # Getting a bin
 
-`SRget(method, options)`
+`SRGet(method, options)`
 
 *srcShare*
 ```js
-const bin = await SRget("srcShare", { key: "6413e41aff7ba5ec61153e4c" });
+const bin = await SRGet("srcShare", { key: "6413e41aff7ba5ec61153e4c" });
 ```
 ```json
 {
@@ -95,7 +95,7 @@ const bin = await SRget("srcShare", { key: "6413e41aff7ba5ec61153e4c" });
 ```
 *sourceBin*
 ```js
-const bin = await SRget("sourceBin", { key: "2wVSfa7tuF"})
+const bin = await SRGet("sourceBin", { key: "2wVSfa7tuF"})
 ```
 ```json
 {
