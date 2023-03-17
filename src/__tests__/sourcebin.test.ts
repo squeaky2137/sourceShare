@@ -10,7 +10,7 @@ test("creator1", async () => {
 });
 
 test("creator2", async () => {
-  const resp = <string> await SRCreate("sourceBin", {
+  const resp = <string>await SRCreate("sourceBin", {
     title: "Test2",
     description: "JEST TEST TWO",
     files: [{ name: "code", content: "trolololololol", languageId: "javascript" }],

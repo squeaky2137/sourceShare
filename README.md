@@ -1,5 +1,5 @@
-# srcbin
-![](https://img.shields.io/npm/l/srcbin)
+# sourceShare
+![](https://img.shields.io/npm/l/sourceShare)
 
 ![](https://img.shields.io/static/v1?label=Developer&message=Squeaky2137&color=blue&style=for-the-badge)
 
@@ -8,7 +8,7 @@
 # Install
 
 ```
-npm install srcbin
+npm install sourceshare
 ```
 
 
@@ -16,11 +16,11 @@ npm install srcbin
 
 ```js
 // Import methods
-import { SRCreate, SRget } from 'srcbin';
+import { SRCreate, SRget } from 'sourceshare';
 
 
 // Use required
-const { SRCreate, SRget } = require('srcbin');
+const { SRCreate, SRget } = require('sourceshare');
 ```
 
 # Creating a bin
@@ -121,4 +121,4 @@ const bin = await SRget("sourceBin", { key: "2wVSfa7tuF"})
 # Support
 
 -   Join the [discord](https://discord.gg/QBaqEZD3t3)
--   Create an issue on the [GitHub](https://github.com/squeaky2137/srcbin/issues)
+-   Create an issue on the [GitHub](https://github.com/squeaky2137/sourceShare/issues)

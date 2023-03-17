@@ -1,5 +1,5 @@
 {
-  "name": "srcbin",
+  "name": "sourceshare",
   "version": "1.0.0",
   "description": "A simple SourceBin and srcShare API wrapper for Node.js",
   "main": "lib/index.js",
