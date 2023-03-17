@@ -1,5 +1,5 @@
 # sourceShare
-![](https://img.shields.io/npm/l/sourceShare)
+![](https://img.shields.io/npm/l/sourceshare)
 
 ![](https://img.shields.io/static/v1?label=Developer&message=Squeaky2137&color=blue&style=for-the-badge)
 
