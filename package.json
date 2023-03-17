@@ -4,6 +4,8 @@
   "description": "A simple SourceBin and srcShare API wrapper for Node.js",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "keywords": ["SourceBin", "srcShare", "API", "wrapper", "node", "node.js", "javascript", "js", "pasteBin", "hasteBin"],
+  "author": "Squeaky2137",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
@@ -15,9 +17,7 @@
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.4.1",
     "@typescript-eslint/eslint-plugin": "^5.55.0",
